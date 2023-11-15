@@ -1,5 +1,9 @@
 # Micro-batching library
 
+Submit jobs to be processed on interval timer (which can be updated at runtime). Set the size of items to be processed which can also be updated during application runtime. Stopping and Starting the batch process interval will cause a purge of jobs from the queue while obeying the size and interval limits, until empty.
+
+---
+
 ## Requirements
 
 Node and NPM
